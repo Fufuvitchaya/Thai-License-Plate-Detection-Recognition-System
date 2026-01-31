@@ -1,19 +1,19 @@
-# 🚗 Thai License Plate Detection & Recognition System
+# Thai License Plate Detection & Recognition System
 
 ระบบตรวจจับและจดจำป้ายทะเบียนรถไทยด้วย YOLOv8 และ AI for Thai API พร้อม Firebase Database
 
-## ✨ Features
+## Features
 
-- 🎯 **ตรวจจับป้ายทะเบียน** ด้วย YOLOv8 custom model
-- 📱 **อ่านข้อความ** ด้วย AIforThai LPR API
-- � **Firebase Database** สำหรับเก็บข้อมูลการตรวจจับ
-- 🗺️ **วิเคราะห์จังหวัด** จากป้ายทะเบียนและ API response
-- �📹 **Webcam Real-time** detection
-- 📁 **อัปโหลดไฟล์** รูปภาพ
-- 🌐 **Web Interface** ที่ใช้งานง่าย
-- 📊 **Dashboard** แสดงข้อมูลการตรวจจับล่าสุดและสถิติจังหวัด
+- **ตรวจจับป้ายทะเบียน** ด้วย YOLOv8 custom model
+- **อ่านข้อความ** ด้วย AIforThai LPR API
+- **Firebase Database** สำหรับเก็บข้อมูลการตรวจจับ
+- **วิเคราะห์จังหวัด** จากป้ายทะเบียนและ API response
+- **Webcam Real-time** detection
+- **อัปโหลดไฟล์** รูปภาพ
+- **Web Interface** ที่ใช้งานง่าย
+- **Dashboard** แสดงข้อมูลการตรวจจับล่าสุดและสถิติจังหวัด
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── app.py                    # Flask web application
@@ -43,7 +43,7 @@
 └── venv/                   # Python virtual environment
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Environment
 
@@ -65,7 +65,7 @@ python app.py
 http://localhost:5000
 ```
 
-## 📖 Usage
+## Usage
 
 ### Web Interface
 
@@ -75,12 +75,12 @@ http://localhost:5000
 
 ### Webcam Features
 
-- 🎛️ **Camera Selection**: เลือกกล้องที่ต้องการ
-- 📐 **Resolution Control**: ปรับความละเอียด
-- ⚙️ **Detection Settings**: ปรับ confidence threshold
-- 🔄 **Auto/Manual Mode**: โหมดตรวจจับอัตโนมัติหรือแมนนวล
+- **Camera Selection**: เลือกกล้องที่ต้องการ
+- **Resolution Control**: ปรับความละเอียด
+- **Detection Settings**: ปรับ confidence threshold
+- **Auto/Manual Mode**: โหมดตรวจจับอัตโนมัติหรือแมนนวล
 
-## 🔧 Configuration
+## Configuration
 
 ### API Setup
 
@@ -94,13 +94,13 @@ API_KEY = "your_aiforthai_api_key"
 
 ไฟล์ model อยู่ที่ `models/best.pt`
 
-## 📚 Documentation
+## Documentation
 
-- [📋 Organized Structure](docs/ORGANIZED_STRUCTURE.md)
-- [⚡ Performance Optimization](docs/PERFORMANCE_OPTIMIZATION.md)
-- [📹 Webcam Guide](docs/WEBCAM_GUIDE.md)
+- [Organized Structure](docs/ORGANIZED_STRUCTURE.md)
+- [Performance Optimization](docs/PERFORMANCE_OPTIMIZATION.md)
+- [Webcam Guide](docs/WEBCAM_GUIDE.md)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the project
 2. Create feature branch
@@ -108,10 +108,3 @@ API_KEY = "your_aiforthai_api_key"
 4. Push to branch
 5. Open Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-**Made with ❤️ for Thai License Plate Recognition**
